@@ -5,8 +5,8 @@ let request = require('supertest');
 let assert = require('assert');
 let Bot = require('../index.js');
 
-const BOT_USERNAME = 'testbot';
-const BOT_API_KEY = '2042cd8e-638c-4183-aef4-d4bef6f01981';
+const BOT_USERNAME = 'qwsbot';
+const BOT_API_KEY = 'a907b85e-637d-4407-9ecb-7553bcae9572';
 
 describe('Data scan code', () => {
     it('returns regular data URL', (done) => {
